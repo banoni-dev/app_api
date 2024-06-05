@@ -44,6 +44,3 @@ def search():
         return jsonify({'repense': best_result[0]}), 200
     else:
         return jsonify({'message': 'لم يتم العثور على إجابة.'}), 404
-
-if __name__ == '__main__':
-    app.run(host='192.168.1.118', port=10001)
