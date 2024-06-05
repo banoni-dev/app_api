@@ -2,3 +2,4 @@ Flask==3.0.3
 sentence_transformers==3.0.0
 faiss_cpu==1.8.0
 numpy==1.26.4
+Gunicorn
