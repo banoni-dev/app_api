@@ -6,7 +6,7 @@ app = Flask(__name__)
 
    
 
-@app.route('/search', methods=['GET'])
+@app.route('/', methods=['GET'])
 def search():
     query = request.args['question']
     
